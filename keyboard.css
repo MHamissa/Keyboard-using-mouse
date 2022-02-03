@@ -1,0 +1,46 @@
+#firstLine{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#secondLine{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#thirdLine{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#space{
+    width:100px;
+}
+#fourthLine{
+    display: flex;
+    justify-content: center;
+}
+#keyboard{
+    background-color: grey;
+    margin:30px;
+    border:ridge;
+    width: 300px;
+    
+}
+h1{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+#outputTextDiv{
+    margin: 30px;
+    
+    
+}
+#outputText{
+    width:500px;
+    height:200px;
+}
+body{
+    background-image: url('https://i.pinimg.com/originals/9e/7b/47/9e7b47982ee1b58fef26717182b4b28c.jpg');
+}

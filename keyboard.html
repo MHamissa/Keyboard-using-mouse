@@ -1,0 +1,41 @@
+<!DODCTYPE html>
+    <html>
+        <head>
+          <link rel="stylesheet" href="keyboard.css">  
+        </head>
+        <body>
+            <h1>
+                Keyboard by using mouse
+            </h1>
+            <div id="outputTextDiv">
+                <textarea placeholder="Here will show what you write by keyboard (only English)" id="outputText" readonly></textarea>
+            </div>
+            <div id="keyboard">
+                <div id="firstLine">
+                   <input type="button" value="w" class="keys"><input type="button" value="e" class="keys"><input type="button" value="r" class="keys"><input type="button" value="t" class="keys">
+                   <input type="button" value="y" class="keys"><input type="button" value="u" class="keys"><input type="button" value="i" class="keys"><input type="button" value="o" class="keys">
+                   <input type="button" value="p" class="keys"><input type="button" value="{" class="keys"><input type="button" value="}" class="keys">
+                   
+                </div>
+                <div id="secondLine">
+                    <input type="button" value="a" class="keys"><input type="button" value="s" class="keys"><input type="button" value="d" class="keys"><input type="button" value="f" class="keys">
+                   <input type="button" value="g" class="keys"><input type="button" value="h" class="keys"><input type="button" value="j" class="keys"><input type="button" value="k" class="keys">
+                   <input type="button" value="l" class="keys"><input type="button" value=":" class="keys"><input type="button" value="Enter" class="keys" id="enter">
+                    
+                </div>
+                <div id="thirdLine">
+                    <input type="button" value="z" class="keys"><input type="button" value="x" class="keys"><input type="button" value="c" class="keys"><input type="button" value="v" class="keys">
+                   <input type="button" value="b" class="keys"><input type="button" value="n" class="keys"><input type="button" value="m" class="keys"><input type="button" value="<" class="keys">
+                   <input type="button" value=">"><input type="button" value="?">
+                    
+                </div>
+                <div id="fourthLine">
+                    <input type="button" id="space" class="keys"><input type="button" value="shift" id="shift" class="keys"><input type="button" value="backspace" class="keys" id="backspace"> <input type="button" value="Del"  class="keys" id="delete">
+                </div>
+            </div>
+            <script src="keyboard.js">
+            </script>
+                
+            
+        </body>
+    </html>
